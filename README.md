@@ -28,6 +28,50 @@ Below is the Demo link of dapp. You can watch this in 2x.
 
 https://www.loom.com/share/034bba06bf04488f90bb989c14bb3d51
 
+## Deployment
+
+Install dependencies
+```bash
+  npm install
+```
+
+### Contract Side
+
+Compile Smart Contracts
+```bash
+  npx hardhat compile
+```
+
+To deploy smart contract locally
+```bash
+  node scripts/deploy.js
+```
+
+To deploy smart contract on testnet. In this dapp I uses goerli testnet using alchemy api.
+```bash
+  npx hardhat run scripts/deploy.js --network [networkName]
+```
+
+To withdraw Ethers (only Owner function)
+```bash
+  node scripts/withdrawEthers.js
+```
+
+To run tests
+```bash
+  npx hardhat test
+```
+
+### Frontend Side
+Firstly, change directory to frontend
+```bash
+  cd frontend/
+```
+
+Run dapp by simply typing 
+```bash
+  npm start
+```
 
 
 
