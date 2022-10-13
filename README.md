@@ -11,15 +11,15 @@ User can buy ropstam token by paying some amount of ethers to a smart contract. 
 ## Tools & Languages
 Tools used creating this dapps are
 
-=> Hardhat
+- Hardhat
 
-=> ReactJs
+- ReactJs
 
 Languages used creating Dapp (smart contract, scripts, frontend) are
 
-=> Solidity
+- Solidity
 
-=> JavaScript
+- JavaScript
 
 Alchemy is also used.
 ## Demo
